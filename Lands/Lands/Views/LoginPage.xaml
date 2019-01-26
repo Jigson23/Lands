@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lands.Views.LoginPage"
              Title="Login"
-             BindingContext="{Binding Main,Source={StaticResource Key=Locater}}">
+             BindingContext="{Binding Main,Source={StaticResource Locator}}">
     <ContentPage.Content>
         <ScrollView
             BindingContext="{Binding Login}">
